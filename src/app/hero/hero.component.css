@@ -1,0 +1,49 @@
+mat-card {
+  margin: 25px;
+  padding-top: 25px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+  min-width: 400px;
+  padding-bottom: 25px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  mat-card {
+    min-width: 80%;
+    margin: auto;
+  }
+}
+
+
+.title-lockup {
+  margin: auto;
+  margin-top: 86px;
+  text-align: center;
+  color: white;
+}
+
+
+.hero {
+  padding: 25px;
+  height: 350px;
+}
+
+
+img {
+  width: 40%;
+}
+
+div {
+  padding-top: 25px;
+  background: url('/assets/hero-background.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+mat-divider {
+  width: 87%;
+  margin: auto;
+  margin-bottom: 25px;
+}

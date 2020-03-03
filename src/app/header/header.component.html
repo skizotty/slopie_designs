@@ -1,0 +1,19 @@
+<mat-toolbar>
+  <span id="svg-logo">
+    <img class="logo-img" src="./assets/logo.png">
+  </span>
+  <span class="spacer"></span>
+  <span>
+    <ul>
+      <li>
+        <button (click)="scrollToElement('about')" mat-button>About</button>
+      </li>
+      <li>
+        <button (click)="scrollToElement('work')" mat-button>Portfolio</button>
+      </li>
+      <li>
+        <button (click)="scrollToElement('contact')" mat-button>Contact</button>
+      </li>
+    </ul>
+  </span>
+</mat-toolbar>
